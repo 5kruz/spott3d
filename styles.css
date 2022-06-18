@@ -1,0 +1,63 @@
+html {
+  color: white;
+  background-color: black;
+}
+
+/* categoryWrap */
+
+.categoryWrap {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.categoryBlock {
+  border: 1px solid #777777;
+  max-width: 30%;
+  width: 30%;
+  padding: 10px;
+}
+
+.categoryBlock h1 {
+  margin: 0 auto;
+  font-size: 15px;
+  width: 75%;
+  border-bottom: 1px solid #777777;
+  text-align: center;
+}
+
+.categoryBlock li{
+  font-size: 12px;
+}
+
+.categoryBlock li:hover {
+  cursor: pointer;
+  color: #832911;
+}
+
+/* headBlock */
+
+#HeadBlock {
+  display: flex;
+  max-width: 80%;
+  margin: 75px auto;
+}
+
+#HeadBlock .logoSlice {
+  border-right: 1px solid #777777;
+  text-align: right;
+  padding-right: 25px;
+}
+
+#HeadBlock .logoSlice h3 {
+  font-style: italic;
+}
+
+#HeadBlock .infoSlice {
+  font-size: 14px;
+  width: 50%;
+  margin-left: 25px;
+  font-style: italic;
+}
+
